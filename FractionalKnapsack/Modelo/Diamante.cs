@@ -10,13 +10,13 @@ namespace FractionalKnapsack.Modelo
     {
         public string Nome { get; set; }
         public int Valor { get; set; }
-        public int Quantidade { get; set; }
+        public int Peso { get; set; }
 
-        public Diamante(string nome, int valor, int quantidade)
+        public Diamante(string nome, int valor, int peso)
         {
             Nome = nome;
             Valor = valor;
-            Quantidade = quantidade;
+            Peso = peso;
         }
     }
 }
