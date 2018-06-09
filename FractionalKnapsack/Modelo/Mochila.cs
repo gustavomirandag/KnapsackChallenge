@@ -43,7 +43,7 @@ namespace FractionalKnapsack.Modelo
 
             for (int i = 0; i < _diamantes.Count; i++)
             {
-                Console.WriteLine($"{_diamantes[i].Nome} - R${_diamantes[i].Valor} - {_diamantes[i].Peso}kg ");
+                Console.WriteLine($"{_diamantes[i].Nome} - R${_diamantes[i].Valor*_diamantes[i].Peso} - {_diamantes[i].Peso}kg ");
             }
         }
 
